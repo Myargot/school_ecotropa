@@ -127,8 +127,7 @@ img {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20vh;
-    filter: brightness(1);
-    border-radius: 50px;                     
+    filter: brightness(1);                    
 }
 
 .preview-1{
@@ -323,6 +322,13 @@ footer{
     margin-top: 10vw;
 }
 
+.my_name{
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .anime__title{
     margin-bottom: 5%;
 }
@@ -382,22 +388,6 @@ footer{
 
     .main-nav{
         align-items: center;
-        align-self: center;
-    }
-
-    .form{
-        flex-direction: column;
-    }
-
-    .form__left{
-        width: 100%;
-    }
-
-    .form__right{
-        width: 100%;
-    }
-
-    .form__btn{
         align-self: center;
     }
 }
@@ -526,22 +516,6 @@ footer{
     .demons-list{
         gap: 20vh;
     }
-
-    .form{
-        flex-direction: column;
-    }
-
-    .form__left{
-        width: 50%;
-    }
-
-    .form__right{
-        width: 100%;
-    }
-
-    .form__btn{
-        align-self: flex-start;
-    }
 }
 
 @media(min-width: 1075px){
@@ -570,22 +544,6 @@ footer{
 
     .demon-4{
         padding-top: 30px;
-    }
-
-    .form{
-        flex-direction: row;
-    }
-
-    .form__left{
-        width: 30%;
-    }
-
-    .form__right{
-        width: inherit;
-    }
-
-    .form__btn{
-        align-self: flex-end;
     }
 
 }
