@@ -322,6 +322,12 @@ footer{
     margin-top: 10vw;
 }
 
+.my_name{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
 .anime__title{
     margin-bottom: 5%;
 }
