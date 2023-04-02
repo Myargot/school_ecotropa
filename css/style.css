@@ -325,7 +325,6 @@ footer{
 .my_name{
     display: flex;
     margin-bottom: 10px;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -354,17 +353,6 @@ footer{
     gap: 3vh;
 }
 
-.about-img{
-    width: 30%;
-    height: fit-content;
-    padding: 2%;
-    background: #C4C4C4;
-    border-radius: 20px;
-}
-
-.about-img__image{
-    border-radius: 20px;
-}
 
 @media (min-width: 660px) {
     .preview__title{
