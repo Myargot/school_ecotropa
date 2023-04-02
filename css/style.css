@@ -143,7 +143,7 @@ img {
     background: linear-gradient(180deg, #000000 0%, #66adff 18%, #bac9ff 60%, #ffffff 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
+    text-emphasis-color: transparent;
     text-align: center;
     font-size: 24px;
 }
