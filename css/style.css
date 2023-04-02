@@ -282,7 +282,7 @@ img {
     outline: none;
     cursor: pointer;
     background-size: contain;
-    background: url("/img/ArrowB.svg") no-repeat center;
+    background: url("../img/ArrowB.svg") no-repeat center;
     width: 20px;
     height: 6px;
 }
@@ -293,7 +293,7 @@ img {
 }
 
 .demon-text--1 button, .demon-text--4 button, .demon-text--7 button{
-    background: url("/img/ArrowW.svg");
+    background: url("../img/ArrowW.svg");
 }
 
 .demon-text__arrow--open{
@@ -316,7 +316,7 @@ img {
 }
 
 footer{
-    background: url('/img/back-footer.png') no-repeat top right;
+    background: url('../img/back-footer.png') no-repeat top right;
     background-size: contain;
     padding-top: 30vw;
     padding-bottom: 3vw;
@@ -335,50 +335,6 @@ footer{
     margin-bottom: 3vh;
 }
 
-.video_player{
-    width: 80%;
-    align-self: center;
-    border-radius: 20px;
-}
-
-.video{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.video-text{
-    align-self: center;
-}
-
-.video-text p{
-    font-size: 20px;
-}
-
-.season__name{
-    font: inherit;
-    background: none;
-    border: 1px solid #E5E5E5;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    color: #E5E5E5;
-    cursor: pointer;
-}
-
-.film__name{
-    border-radius: 20%;
-    width: 100px;
-}
-
-.season__name:hover{
-    background: rgba(131, 87, 128, 0.3);
-}
-
-.season__name:active{
-    background: rgba(131, 87, 128, 0.3);
-}
-
 .about{
     display:flex;
     justify-content: space-around;
@@ -392,12 +348,6 @@ footer{
     gap: 3vh;
 }
 
-.feedback__subtitle{
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-}
-
 .about-img{
     width: 30%;
     height: fit-content;
@@ -408,92 +358,6 @@ footer{
 
 .about-img__image{
     border-radius: 20px;
-}
-
-.feedback__title{
-    text-align: center;
-    margin-bottom: 2%;
-}
-
-.form{
-    padding: 3%;
-    display: flex;
-    justify-content: space-around;
-    gap: 5vw;
-}
-
-.form__btn{
-    background: #af8ae0;
-    border-radius:15px;
-    border:0;
-    font: inherit;
-    color:  #3d255a;
-    cursor: pointer;
-    box-shadow:1px 1px 4px rgb(140, 174, 206);
-    padding: 15px;
-    align-self: flex-end;
-    transition: 0,2 s;
-}
-
-.form__btn:hover{
-    color: #9576be;
-    background:  #3d255a;
-}
-
-input{
-    background: #b4bbdd;
-    padding: 15px;
-    width: 100%;
-    font: inherit;
-    border-radius:15px;
-    border: none;
-    box-shadow:1px 1px 4px rgb(228, 242, 255);
-}
-
-.form__feedback{
-    font: inherit;
-    padding: 15px;
-    border-radius: 15px;
-    background: #b4bbdd;
-    transition: 0.2s;
-}
-
-input:hover{
-    border: none;
-    background: #898fac ;
-    color: #f6f6f8;
-}
-
-input:active{
-    border: none;
-    background: #898fac ;
-    color: #f6f6f8;
-}
-
-textarea:hover{
-    border: none;
-    background: #898fac ;
-    color: #f6f6f8;
-}
-
-textarea:active{
-    border: none;
-    background: #898fac ;
-    color: #f6f6f8;
-}
-
-.form__left{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding:10px;
-}
-
-.form__right{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 @media (min-width: 660px) {
